@@ -1,0 +1,14 @@
+CREATE DATABASE empresa_db;
+
+USE empresa_db;
+
+CREATE TABLE empresas (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  nombreComercial VARCHAR(100) NOT NULL,
+  razonSocial VARCHAR(100) NOT NULL,
+  telefono VARCHAR(15) NOT NULL,
+  correoElectronico VARCHAR(100) NOT NULL,
+  nit VARCHAR(20) NOT NULL,
+  estado VARCHAR(20) NOT NULL,
+  direccion TEXT NOT NULL
+);
